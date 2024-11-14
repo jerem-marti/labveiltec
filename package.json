@@ -5,11 +5,15 @@
     "dev": "nuxi dev",
     "build": "nuxi build",
     "generate": "nuxi generate",
-    "preview": "nuxi preview"
+    "preview": "nuxi preview",
+    "deploy": "nuxi generate && gh-pages --dotfiles -d .output/public"
   },
   "devDependencies": {
     "content-wind": "latest",
     "gh-pages": "^6.2.0",
     "nuxt": "latest"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
   }
 }
