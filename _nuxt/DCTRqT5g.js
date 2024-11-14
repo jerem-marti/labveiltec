@@ -1,1 +1,0 @@
-import{k as e,c as a,e as o,X as s}from"./Bu8CGal2.js";const c={},t={class:"mb-4 px-4 border bg-gray-100 dark:bg-black dark:border-gray-700 rounded"};function d(r,n){return a(),o("div",t,[s(r.$slots,"default")])}const _=e(c,[["render",d]]);export{_ as default};
