@@ -16,6 +16,8 @@ head:
       content: 'Jérémy Martin'
     - name: 'copyright'
       content: '© 2024 Jérémy Martin'
+    - name: 'source'
+      content: 'link to the source'
 draft: true
 ---
 
@@ -25,6 +27,11 @@ draft: true
 
 🗝️ Keywords: **{{ $doc.head.meta[0].content }}**  
 🕒 Estimated Reading Time: **{{ $doc.head.meta[1].content }}**
+
+🧑‍🏫 Original author: **{{ $doc.head.meta[3].content }}**  
+📜 Original article: [**{{ $doc.head.meta[5].content }}**](link to copy paste)
+
+---
 
 ## Introduction
 
